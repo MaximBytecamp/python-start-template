@@ -41,7 +41,7 @@ print(int(x) + 10)  # 20
 | Что написано | Что произойдёт | Как правильно |
 |---|---|---|
 | `"10" + 10` | `TypeError: can only concatenate str (not "int") to str` | `int("10") + 10` или `"10" + str(10)` |
-| `int("3.5")` | `ValueError: invalid literal for int()` | `float("3.5")` или `int(float("3.5"))` |
-| `x = 3,14` | получается пара значений, число не получается | `x = 3.14` |
+| `int("3.5")` | `ValueError: invalid literal for int() with base 10: '3.5'` | `float("3.5")` или `int(float("3.5"))` |
+| `x = 3,14` | в `x` записывается пара значений: `print(x)` выводит `(3, 14)` | `x = 3.14` |
 | `print(10 / 2)`, ожидая `5` | выведет `5.0` | `10 // 2`, если нужен целый результат |
 | `print("Итого: " + total)` при числе `total` | `TypeError` | `print(f"Итого: {total}")` |
