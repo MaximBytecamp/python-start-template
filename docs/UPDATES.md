@@ -38,4 +38,4 @@ git config pull.rebase false
 
 и снова нажмите **Sync Changes**.
 
-Подробно со снимками: [работа с репозиторием](https://algorthimization-course-vvodnoe.vercel.app/dup02-vvedenie-v-python/repozitoriy/index.html#update).
+Подробно со снимками: [работа с репозиторием](https://algorthimization-course-vvodnoe.vercel.app/dup02-vvedenie-v-python/repozitoriy/index.html#s10).
