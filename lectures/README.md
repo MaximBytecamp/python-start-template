@@ -23,13 +23,13 @@
 
 | Глава | Конспект | Задачи в задачнике |
 |---|---|---|
-| 0 | [Visual Studio Code: установка и первый проект](glava-00-vs-code.md) | — |
-| 1.1 | [Переменные в программировании](glava-1-1-peremennye.md) | [1.1](https://python-theory-makarov.vercel.app/zadachnik/1-1/index.html) |
-| 1.2 | [Типы данных в Python](glava-1-2-tipy-dannyh.md) | [1.2](https://python-theory-makarov.vercel.app/zadachnik/1-2/index.html) |
-| 1.3 | [Функция print(): вывод данных](glava-1-3-print.md) | [1.3](https://python-theory-makarov.vercel.app/zadachnik/1-3/index.html) |
-| 1.4 | [Параметры print(): sep и end](glava-1-4-print-sep-end.md) | [1.4](https://python-theory-makarov.vercel.app/zadachnik/1-4/index.html) |
-| 1.5 | [Функция input(): ввод данных](glava-1-5-input.md) | [1.5](https://python-theory-makarov.vercel.app/zadachnik/1-5/index.html) |
-| 1.6 | [Множественное присваивание](glava-1-6-mnozhestvennoe-prisvaivanie.md) | [1.6](https://python-theory-makarov.vercel.app/zadachnik/1-6/index.html) |
-| 1.7 | [Операторы в Python](glava-1-7-operatory.md) | [1.7](https://python-theory-makarov.vercel.app/zadachnik/1-7/index.html) |
-| 1.8 | [Операции деления: /, // и %](glava-1-8-operacii-deleniya.md) | [1.8](https://python-theory-makarov.vercel.app/zadachnik/1-8/index.html) |
-| 1.9 | [round() и формат .2f](glava-1-9-round-i-format.md) | [1.9](https://python-theory-makarov.vercel.app/zadachnik/1-9/index.html) |
+| 0 | [Visual Studio Code: установка и первый проект](chapter-0-vs-code.md) | — |
+| 1.1 | [Переменные в программировании](chapter-1-1-variables.md) | [1.1](https://python-theory-makarov.vercel.app/zadachnik/1-1/index.html) |
+| 1.2 | [Типы данных в Python](chapter-1-2-data-types.md) | [1.2](https://python-theory-makarov.vercel.app/zadachnik/1-2/index.html) |
+| 1.3 | [Функция print(): вывод данных](chapter-1-3-print.md) | [1.3](https://python-theory-makarov.vercel.app/zadachnik/1-3/index.html) |
+| 1.4 | [Параметры print(): sep и end](chapter-1-4-print-sep-end.md) | [1.4](https://python-theory-makarov.vercel.app/zadachnik/1-4/index.html) |
+| 1.5 | [Функция input(): ввод данных](chapter-1-5-input.md) | [1.5](https://python-theory-makarov.vercel.app/zadachnik/1-5/index.html) |
+| 1.6 | [Множественное присваивание](chapter-1-6-multiple-assignment.md) | [1.6](https://python-theory-makarov.vercel.app/zadachnik/1-6/index.html) |
+| 1.7 | [Операторы в Python](chapter-1-7-operators.md) | [1.7](https://python-theory-makarov.vercel.app/zadachnik/1-7/index.html) |
+| 1.8 | [Операции деления: /, // и %](chapter-1-8-division.md) | [1.8](https://python-theory-makarov.vercel.app/zadachnik/1-8/index.html) |
+| 1.9 | [round() и формат .2f](chapter-1-9-round-and-format.md) | [1.9](https://python-theory-makarov.vercel.app/zadachnik/1-9/index.html) |

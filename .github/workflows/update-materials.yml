@@ -1,0 +1,51 @@
+# Каждый день забирает из шаблона курса новые задания, конспекты и материалы.
+# Запустить вручную: вкладка Actions → «Обновление материалов курса» → Run workflow.
+name: Обновление материалов курса
+
+on:
+  schedule:
+    - cron: "0 3 * * *"  # 06:00 по Москве
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Найти шаблон
+        id: tpl
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          info=$(gh api "repos/${{ github.repository }}" --jq '[.is_template, (.template_repository.full_name // "")] | @tsv')
+          is_template=$(echo "$info" | cut -f1)
+          repo=$(echo "$info" | cut -f2)
+          if [ "$is_template" = "true" ]; then
+            echo "Это сам шаблон, обновлять нечего."; echo "repo=" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          if [ -z "$repo" ]; then
+            echo "::error::Репозиторий создан не кнопкой Use this template: шаблон не найден."; exit 1
+          fi
+          echo "Шаблон: $repo"
+          echo "repo=$repo" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@v4
+        if: steps.tpl.outputs.repo != ''
+
+      - name: Перенести новые материалы
+        if: steps.tpl.outputs.repo != ''
+        run: |
+          git clone --depth 1 "https://github.com/${{ steps.tpl.outputs.repo }}.git" "$RUNNER_TEMP/template"
+          python3 "$RUNNER_TEMP/template/.github/scripts/update_materials.py" "$RUNNER_TEMP/template" .
+
+      - name: Сохранить коммитом
+        if: steps.tpl.outputs.repo != ''
+        run: |
+          git add -A
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git commit -m "materials: обновление из шаблона курса"
+          git push || (git pull --rebase origin "${{ github.ref_name }}" && git push)
