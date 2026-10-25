@@ -33,18 +33,18 @@
 
 | Файл | Задача | Номер в задачнике |
 |---|---|---|
-| [`task_01.py`](task_01.py) | Можно ли купить товар | 2.1.5 |
-| [`task_02.py`](task_02.py) | Льготный билет | 2.1.6 |
-| [`task_03.py`](task_03.py) | Аттракцион | 2.1.9 |
-| [`task_04.py`](task_04.py) | Отправка заказа | 2.1.11 |
-| [`task_05.py`](task_05.py) | Сданные экзамены | 2.1.13 |
-| [`task_06.py`](task_06.py) | Исправьте проверку | 2.1.14 |
-| [`task_07.py`](task_07.py) | Упаковка без остатка | 2.2.3 |
-| [`task_08.py`](task_08.py) | Високосный год | 2.2.6 |
-| [`task_09.py`](task_09.py) | Скидка на один товар | 2.2.7 |
-| [`task_10.py`](task_10.py) | Допуск к экзамену | 2.2.11 |
-| [`task_11.py`](task_11.py) | Одна открытая касса | 2.2.13 |
-| [`task_12.py`](task_12.py) | Найдите ошибку в условии | 2.2.15 |
+| [`task_01.py`](task_01.py) | Можно ли купить товар | [2.1.5](https://python-theory-makarov.vercel.app/zadachnik/2-1/index.html#p5) |
+| [`task_02.py`](task_02.py) | Льготный билет | [2.1.6](https://python-theory-makarov.vercel.app/zadachnik/2-1/index.html#p6) |
+| [`task_03.py`](task_03.py) | Аттракцион | [2.1.9](https://python-theory-makarov.vercel.app/zadachnik/2-1/index.html#p9) |
+| [`task_04.py`](task_04.py) | Отправка заказа | [2.1.11](https://python-theory-makarov.vercel.app/zadachnik/2-1/index.html#p11) |
+| [`task_05.py`](task_05.py) | Сданные экзамены | [2.1.13](https://python-theory-makarov.vercel.app/zadachnik/2-1/index.html#p13) |
+| [`task_06.py`](task_06.py) | Исправьте проверку | [2.1.14](https://python-theory-makarov.vercel.app/zadachnik/2-1/index.html#p14) |
+| [`task_07.py`](task_07.py) | Упаковка без остатка | [2.2.3](https://python-theory-makarov.vercel.app/zadachnik/2-2/index.html#p3) |
+| [`task_08.py`](task_08.py) | Високосный год | [2.2.6](https://python-theory-makarov.vercel.app/zadachnik/2-2/index.html#p6) |
+| [`task_09.py`](task_09.py) | Скидка на один товар | [2.2.7](https://python-theory-makarov.vercel.app/zadachnik/2-2/index.html#p7) |
+| [`task_10.py`](task_10.py) | Допуск к экзамену | [2.2.11](https://python-theory-makarov.vercel.app/zadachnik/2-2/index.html#p11) |
+| [`task_11.py`](task_11.py) | Одна открытая касса | [2.2.13](https://python-theory-makarov.vercel.app/zadachnik/2-2/index.html#p13) |
+| [`task_12.py`](task_12.py) | Найдите ошибку в условии | [2.2.15](https://python-theory-makarov.vercel.app/zadachnik/2-2/index.html#p15) |
 
 ## Проверка
 
