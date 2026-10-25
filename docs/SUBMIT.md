@@ -9,12 +9,13 @@
 |---|---|---|
 | домашнее задание | `homework/NN-<тема>/` | `homework/01-variables/task_01.py` |
 | практическая работа на паре | `practice/NN-<тема>/` | `practice/01-variables/main.py` |
-| задача из задачника | `problems/chapter-<глава>/` | `problems/chapter-1-3/task_07.py` |
+| задача из задачника по желанию | `problems/chapter-<глава>/` | `problems/chapter-1-3/task_07.py` |
 | тест | `exams/quiz-NN-…/README.md` | код результата в таблице |
 | контрольная работа | `exams/exam-NN/` | `exams/exam-01/task_03.py` |
 
 Имя новой папки для ДЗ и практической работы берётся из таблицы в `homework/README.md`
 и `practice/README.md`: преподаватель дописывает туда строку, когда выдаёт работу.
+Задачи задачника, выданные как ДЗ, решаются в папке ДЗ: одна работа — одна папка.
 
 ## Имена папок и файлов
 
