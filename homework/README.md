@@ -8,6 +8,7 @@
 | [`00-example`](00-example/README.md) | образец оформления сданного ДЗ |
 | [`01-boolean-conditions`](01-boolean-conditions/README.md) | ДЗ 1. Главы 2.1–2.2: логический тип и составные условия, 12 задач из задачника |
 | [`02-if-elif-else`](02-if-elif-else/README.md) | ДЗ 2. Главы 2.3–2.5: диапазоны, `if` / `elif` / `else`, вложенные условия, 14 задач |
+| [`03-while-for`](03-while-for/README.md) | ДЗ 3. Главы 3.2–3.3: циклы `while` и `for in`, 16 задач из задачника |
 
 ## Что лежит в папке ДЗ
 
